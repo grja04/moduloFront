@@ -1,0 +1,95 @@
+/*
+*{
+    color: black;
+    front-family: impact, Haette
+}
+
+header{
+    background-color: cyan;
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 90%;
+    margin-bottom: 10px;
+    height: 100%;
+}
+nav{
+    background-color:darkorange;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+aside{
+
+    background-color: orange;
+    border: 1px solid red;
+    border-radius: 5px;
+    display: inline-block;
+    width: 18%;
+    margin: 10px 10px 10 10;
+    height: 75%;
+
+}
+main{
+
+    background-color: red;
+    border: 1px solid blue;
+    border-radius: 5px;
+    display: inline-block;
+    width: 53.5%;
+}
+
+article{
+    background-color: yellow;
+    border: 1px solid green;
+    border-radius: 5px; 
+}
+footer{
+    background-color: green;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 90%;
+    height: 50%;
+}
+
+}
+.hijo{
+    width:  500px;
+    background-color: red;
+}
+*/
+.contenedor-padre{
+    width: 600px;
+    height: 400px;
+    border: 1px solid #ccc;
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+.square.gray{
+    background-color: gray;
+    align-self: stretch;
+}
+.square.pink {
+    background-color: pink;
+}
+.square.tomato {
+    background-color: tomato;
+}
+.square.cyan {
+    background-color: cyan;
+}
+.square.yellow {
+    background-color: yellow;
+}
