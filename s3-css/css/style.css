@@ -1,0 +1,90 @@
+section{
+    border: 2px dashed steelblue;
+    width: 500px;
+    height: 400x;
+    margin: 400px;
+    position: relative;
+}
+
+
+div.number{
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    background-color: rgba(0,0,0, 0.7)
+}
+.number{
+    position: relative;
+    top:10px;
+    left:0px;
+    left: 50px;
+}
+
+
+/*
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    padding: 15px 0;
+    color:black;
+    padding-left: 15px;;
+
+ }
+.menu {
+   
+    margin: 0 auto;
+    margin-top: 15px;
+    background-color: lightgray;
+    
+    max-height: 900px;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.5s ease;
+}
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.menu ul li {
+   list-style: none;
+   padding: 10px 0;
+   border-bottom: 2px solid blue;
+   flex: auto;
+   
+}
+menu ul li a:hover{
+    background-color: #444;
+
+}
+.menu ul li a:hover{
+    color:white;
+}
+
+.menu ul li:last-of-type{
+    border-bottom:none;
+}
+
+#toggle-menu{
+    display:none;
+}
+.label-taggle{
+    background-color: #ccc;
+    padding: 5xp;
+    
+}
+.label-togger:hover{
+    cursor: pointer;
+}
+#toggle-menu:checked ~ .menu {
+  
+    height: 200px;
+}
+
+
+*/
