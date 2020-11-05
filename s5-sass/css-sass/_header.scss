@@ -1,0 +1,60 @@
+$color-primary: #00a3ff;
+$color-white: rgb(173, 127, 127);
+$color-black: #0000;
+$gray: #ccc;
+$pink: pink;
+
+.container-flex{
+    background-color: pink;
+
+    .square {
+       color: $color-white;
+       background-color: $gray;
+        
+
+       &.item-1{
+           color: $color-white
+       }
+         p.text-white{
+         color: $color-white
+         }
+    }
+}
+
+//.container-flex .square
+// universal , tagname, clase, id
+//selector por atributo
+//selector de subsecuentes + -> *selector article + section
+//selector de hermanos  verguliña -> selector verguliña selector . form verguliña p.text-white
+//selector de hijos directos > -> selector > selector .form > div.form-group
+//selector descendiente selector selector .form div.form-group
+
+//.square .item
+
+form.form{
+    border: 1px solid $gray;
+    width: 70%;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 5px
+
+    .form-group {
+        display: flex;
+        flex-direction:column;
+        margin-bottom: 15px;
+
+        input {
+            height: : 50px;
+            border: 1px solid $gray;
+            border-radius: 
+        }
+
+        button.btn {
+            heigth: 50px;
+            background-color: $color-primary;
+            border: none;
+            border-radius: ;
+            color: $color-white;
+        }
+    }
+}
