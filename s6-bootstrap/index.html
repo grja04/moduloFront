@@ -8,7 +8,8 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="container-fluid vh-15 "> <!--Header-->
+ <!-- <div class="container-fluid vh-100">
+    <div class="container-fluid vh-15 "> 
          <div class="row">
              <div class="col-12  vh-14 border border bg-danger">HEADER
                 <div class="col-12  vh-6 border border bg-warning">NAV</div>
@@ -16,7 +17,7 @@
          </div>
     </div>
     
-    <div class="container-fluid vh-100 d-md-vh-50 d-lg-vh-50"> <!--Central-->
+    <div class="container-fluid vh-100 d-md-vh-50 d-lg-vh-50"> 
         <div class="row">
             <div class="col-12 vh-10 col-md-4 vh-50 col-lg-2 vh-50 bg-warning">Aside 1</div>
             <div class="col-12 vh-50 col-md-8 vh-50 col-lg-8 vh-50 bg-primary ">
@@ -31,13 +32,45 @@
         </div>
    </div>
 
-   <div class="container-fluid vh-15 "> <!--footer-->
+   <div class="container-fluid vh-15 "> 
         <div class="row">
             <div class="col-12 vh-14 bg-secondary">Footer</div>
         </div>
    </div>
+</div> -->
 
 
+<div class="container-fluid vh-100" >
+    <div class="row" >
+        <div class="col-12 vh-10 bg-warning border">
+            <Header>
+                <h1>Header</h1>
+                <nav class="bg-success mb-1">Nav</nav>
+            </Header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12 col-md-4 col-lg-3 border bg-success">
+            <aside>Aside 1</aside>
+        </div>
+        <div class="col-12 col-md-8 col-lg-6 border bg-danger">
+            <main> <h1>Main</h1>
+              <article>Article</article>
+              <article>Article</article>
+              <article>Article</article>
+            </main>
+        </div>
+         <div class="d-none d-lg-block col-lg-3 border bg-primary bg-success">
+             <aside>Aside 2</aside>
+         </div>
+    </div>
+    <div class="row">
+        <div class="col-12 vh-10 border bg-primary">
+            <footer>Footer</footer>
+        </div>
+    </div>
+    
+</div>
     
 
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>             
